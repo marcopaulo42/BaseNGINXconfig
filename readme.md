@@ -1,4 +1,4 @@
-# Create Base Doocker NGINX Plus deployment
+# Create Base Docker NGINX Plus deployment
 
 ## Docker Deployment Instructions 
 
