@@ -44,6 +44,8 @@ Using the following commands to create the Docker Container:
 
 `# sudo docker run --name mynginxplus -p 80:80 -d nginxplus`
 
+where x is host, and y is the container for the - p option x:y
+
 ### Docker Container on port 80 with directory mapping
 
 The following command creates and runs the Container and maps the localhost directory for example: `/home/ubuntu/dockerbuildstuff/conf` to the Container directory `/etc/ninx/conf.d`.
