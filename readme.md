@@ -75,7 +75,9 @@ to obtain reply including `Welcome to nginx!`
 
 `# sudo docker start <Container Name>`
 
-`# sudo docker rm <Cointainer Name>`
+`# sudo docker rm <Container Name>`
+
+`# sudo docker image rm <Docker Image Name>`
 
 
 
