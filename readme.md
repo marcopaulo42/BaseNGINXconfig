@@ -44,7 +44,7 @@ Using the following commands to create the Docker Container:
 
 `# sudo docker run --name mynginxplus -p 80:80 -d nginxplus`
 
-where x is host, and y is the container for the - p option x:y
+where **x** is host, and **y** is the container for the - p option **x:y**
 
 ### Docker Container on port 80 with directory mapping
 
