@@ -9,6 +9,9 @@ specifically the section *"Deploying NGINX Plus with Docker"*.
 
 Create `Dockerfile` similar to **[NGINX Plus Dockerfile (Debian 11)](./Dockerfile)**
 
+Which  exposes port 80 on the Container, and uses the default NGINX `nginx.conf` file.
+
+
 ## Step 2: Build NGINX Plus Image
 
 With the `Dockerfile`, `nginx-repo.crt`, and `nginx-repo.key` files in the same directory, run the following command there to create a Docker image called `nginxplus` (as before, note the final period):
