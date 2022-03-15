@@ -68,9 +68,13 @@ to obtain reply including `Welcome to nginx!`
 
 ### Usefull Docker commands
 `# sudo docker ps -a`
+
 `# sudo docker images`
+
 `# sudo docker stop <Container Name>`
+
 `# sudo docker start <Container Name>`
+
 `# sudo docker rm <Cointainer Name>`
 
 
