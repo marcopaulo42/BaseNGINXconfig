@@ -7,7 +7,7 @@ specifically the section *"Deploying NGINX Plus with Docker"*.
 
 ## Step 1: Create Dockerfile
 
-Create `Dockerfile` similar to **[NGINX Plus Dockerfile (Debian 11)](.Dockerfile)**
+Create `Dockerfile` similar to **[NGINX Plus Dockerfile (Debian 11)](./Dockerfile)**
 
 ## Step 2: Build NGINX Plus Image
 
