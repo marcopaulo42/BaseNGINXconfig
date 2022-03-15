@@ -52,7 +52,7 @@ The following command creates and runs the Container and maps the localhost dire
 
 `# sudo docker run -v /home/ubuntu/dockerbuildstuff/conf:/etc/nginx/conf.d --name mynginxplus -dp 80:80 nginxplus`
 
-Once created, the default `nginx.conf` file is deployed along with any other `*.conf` files in the mapped directory. 
+Once created, the default `nginx.conf` file is deployed along with any other `*.conf` files in the mapped directory, for example, **[default.conf](./default.conf)**.
 
 
 ## Extra
