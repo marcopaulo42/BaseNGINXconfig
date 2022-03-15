@@ -5,6 +5,8 @@
 This deployment is based on the instructions detailed at https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/
 specifically the section *"Deploying NGINX Plus with Docker"*.
 
+These commands are run on the local host, assuming here Ubuntu.
+
 ## Step 1: Create Dockerfile
 
 Create `Dockerfile` similar to **[NGINX Plus Dockerfile (Debian 11)](./Dockerfile)**
