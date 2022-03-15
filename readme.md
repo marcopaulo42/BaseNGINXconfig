@@ -7,8 +7,6 @@ specifically the section *"Deploying NGINX Plus with Docker"*.
 
 These commands are run on the local host, assuming here Ubuntu.
 
-Once created, the default `nginx.conf` and `default.conf` files are deployed.
-
 ## Step 1: Create Dockerfile
 
 Create `Dockerfile` similar to **[NGINX Plus Dockerfile (Debian 11)](./Dockerfile)**
@@ -46,13 +44,16 @@ Using the following commands to create the Docker Container:
 
 where **x** is host, and **y** is the container for the - p option **x:y**
 
+Once created, the default `nginx.conf` and `default.conf` files are deployed.
+
 ### Docker Container on port 80 with directory mapping
 
-The following command creates and runs the Container and maps the localhost directory for example: `/home/ubuntu/dockerbuildstuff/conf` to the Container directory `/etc/ninx/conf.d`.
+The following command creates and runs the Container and maps the localhost directory for example: `/home/ubuntu/dockerbuildstuff/conf` to the Container directory `/etc/ninx/conf.d`, and can be used to update the config files in the container through the mapping instead of directly in the Container.
 
 `# sudo docker run -v /home/ubuntu/dockerbuildstuff/conf:/etc/nginx/conf.d --name mynginxplus -dp 80:80 nginxplus`
 
-This is used to update the config files in the container through the mapping instead of directly in the Container.
+Once created, the default `nginx.conf` file is deployed along with any other `*.conf` files in the mapped directory. 
+
 
 ## Extra
 
